@@ -45,7 +45,7 @@ h2 {
   letter-spacing: 0.3px;
   text-align: left;
   color: #282a36;
-  padding: 0px 0px 10px 10px;
+  padding: 0px 0px 0px 0px;
 }
 
 img {
@@ -93,7 +93,7 @@ font-family: 'Fira Code';
     top:1px;
 }
 
-.recipe {
+.project {
   width: 100%;
 }
 
@@ -101,25 +101,6 @@ a {
   text-decoration: none;
   font-style: normal;
 
-}
-
-.time {
-  padding-left: 10px;
-  padding-top: 10px;
-  width: 20px;
-  height: auto;
-}
-
-.mins {
-  display: inline-block;
-  font-family: Fira Code;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.3px;
-  text-align: left;
-  color: #4a4a4a;
-  position: relative;
-  bottom: 5px;
 }
 
 .description {
@@ -130,14 +111,7 @@ a {
   letter-spacing: 0.1px;
   text-align: left;
   color: #4a4a4a;
-  padding: 0px 0px 10px 10px;
-}
-
-.logo {
-  width: 115px;
-  height: 21.1px;
-  object-fit: contain;
-  padding: 20px;
+  padding: 0px 0px 0px 0px;
 }
 
 .container {
@@ -153,24 +127,6 @@ footer {
   color: #fff;
   display: flex;
   justify-content: space between;
-}
-
-.copyright {
-  margin: auto 0;
-}
-
-.icons {
-  list-style-type: none;
-  display: inline-flex;
-}
-
-.icons a {
-  margin: 0 8px;
-  color: rgb(255, 255, 255, 0.5);
-}
-
-.icons a:hover {
-  color: rgb(255, 255, 255, 0.8);
 }
 
 @media all and (max-width:700px) {
