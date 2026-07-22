@@ -45,6 +45,9 @@ h2 {
 }
 
 summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   cursor: pointer;
   color: #282a36;
   font-family: Fira Code;
@@ -54,7 +57,14 @@ summary {
 }
 
 summary::marker {
+  display: none;
+}
+
+summary::before {
+  content: ">";
   color: #ff79c6;
+  font-weight: 700;
+  -webkit-text-stroke: 2px #ff79c6;
 }
 
 .project {
