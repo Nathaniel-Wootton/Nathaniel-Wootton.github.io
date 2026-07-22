@@ -45,7 +45,7 @@ h2 {
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #fff;
+  color: #ff79c6;
   padding: 0px 0px 0px 0px;
 }
 
@@ -59,6 +59,18 @@ h2 {
 
 .attributeValue {
   color: #f1fa8c;
+}
+
+.location,
+.date {
+  color: #f1fa8c;
+}
+
+.hours {
+  color: #ffb86c;
+}
+.roleTitle {
+  color: #8be9fd;
 }
 
 .sectionContent {
@@ -85,7 +97,7 @@ h2 {
 
 .subsectionTitle,
 .jobTitle {
-  color: #fff;
+  color: #50fa7b;
   font-family: Fira Code;
   font-size: 16px;
   font-weight: 600;
