@@ -19,10 +19,8 @@ header {
   display: flex;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+#projects {
+  display: block;
   max-width: 900px;
   margin: 44px auto;
   padding: 0 40px;
@@ -60,9 +58,11 @@ summary::marker {
 }
 
 .project {
+  display: block;
   border: 1px solid #d8d8dc;
   border-radius: 8px;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .project[open] summary {
